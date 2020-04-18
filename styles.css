@@ -1,0 +1,191 @@
+/* ---------- COLOR SCHEME ---------
+lights-water-blur-rain (Kuler)
+RED: #d92949
+BLUE: #c9dff2
+FAWN: #bf925a
+BROWN: #734f2f
+PINK: #f2c5bb
+
+Color Palette 179398 (Color Hunt)
+GREY: #dbdbdb
+GOLD: #f0a500
+ORANGE: #cf7500
+BLACK: #000
+
+Linguistics book images
+hot pink: #a7325c
+light pink: #f06e7a
+*/
+
+/* ------------FONTS-----------------
+Rammetto One (Google) //HEADINGS
+<link href="https://fonts.googleapis.com/css2?family=Rammetto+One&display=swap" rel="stylesheet">
+font-family: 'Rammetto One', cursive;
+
+Dancing Script (google) //SCRIPT
+<link href="https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap" rel="stylesheet">font-family: 'Dancing Script', cursive;
+
+Candara (standard) //BODY TEXT
+font-family: Candara,Calibri,Segoe,Segoe UI,Optima,Arial,sans-serif;
+*/
+
+
+
+
+/* --------- RESET------------------ */
+
+body {
+  margin: 0;
+  text-align: center;
+  font-family: Candara,Calibri,Segoe,Segoe UI,Optima,Arial,sans-serif;
+  color: darkslategrey;
+}
+
+hr {
+  border-top: .5rem dotted #f06e7a;
+  border-bottom: none;
+  opacity: .35;
+  width: 5rem;
+}
+
+/* ---------- text formatting------ */
+
+.footer-link {
+  color: #f06e7a;
+  text-decoration: none;
+  padding: 1em;
+  font-weight: bold;
+  font-size: 1.15rem;
+}
+
+.footer-link:hover {
+  color: #a7325c;
+  text-decoration: none;
+}
+
+/* .footer-link:visited {
+  color: #11999E;
+  text-decoration: none;
+} */
+
+h1, h2 {
+  color: #66BFBF;
+  font-family: 'Dancing Script', cursive;
+  position: relative;
+  margin: 50px auto 25px auto;
+}
+
+h3, h5, h6 {
+  color: #11999E;
+  font-family: 'Rammetto One', cursive;
+}
+
+h1 {
+  font-size: 5rem;
+}
+
+h2 {
+  font-size: 2.5rem;
+}
+
+h4 {
+  font-size: 2rem;
+  color: #11999E;
+}
+
+.intro {
+  width: 30%;
+  margin: 2rem auto 2rem auto;
+}
+
+p {
+  font-weight: normal;
+}
+
+.contact-msg {
+  width: 40%;
+  margin: 3rem auto;
+}
+
+
+
+/* ---------- CONTAINMENT ------------ */
+.skill-row {
+  width: 50%;
+  margin: 100px auto;
+  text-align: left;
+}
+
+.skill-img {
+  width: 40%;
+}
+
+.computer-img {
+  float: left;
+  margin-right: 30px;
+}
+
+.linguistics-img {
+  float: right;
+  margin-left: 30px;
+}
+
+.top-container {
+  background-color: #d9f6f6; /*lighter than paleturquoise */
+  padding-top: 25px;
+  position: relative;
+}
+
+.top-cloud {
+  position: absolute;
+  top: 50px;
+  right: 300px;
+}
+
+.bottom-cloud {
+  position: absolute;
+  left: 300px;
+  bottom: 300px;
+}
+
+.btn { /* #66BFBF light --- #11999E dark --- ##d9f6f6 highlight */
+	background-color:#66BFBF;
+	border-radius:28px;
+	border:1px solid #11999E;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Candara;
+	font-size:17px;
+	padding:13px 21px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #11999E;
+}
+.btn:hover {
+	background-color:#11999E;
+}
+.btn:active {
+	position:relative;
+	top:1px;
+}
+
+.bottom-container {
+  background-color: #66BFBF;
+  padding: 2rem;
+}
+
+.contact-me {
+  margin-bottom: 2rem;
+}
+
+.copyright {
+  color: white;
+  font-size: 1.25rem;
+}
+
+.credit, a {
+  font-size: .85rem;
+  list-style-type: none;
+  color: darkslategrey;
+  text-decoration: none;
+}
